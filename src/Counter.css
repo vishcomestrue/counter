@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+.localeBody {
+  margin: 0;
+  padding: 20px;
+  overflow-x: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 60vh;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+  backdrop-filter: blur(5px);
+}
+
+h1 {
+  color: sandybrown;
+  font-family: monospace;
+  font-size: clamp(1.2rem, 3vw + 10px, 2.2rem);
+}
+
+#countNumber {
+  color: black;
+  font-size: clamp(1.5rem, 3vw + 20px, 2.5rem);
+}
+
+.buttonEncloser {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.button {
+  background-color: #1a1a1a;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: clamp(0.8rem, 1vw + 10px, 1.15rem);
+  padding: 10px 15px;
+  width: 40%;
+}
+
+#inc {
+  background-color: green;
+}
+
+#dec {
+  background-color: orangered;
+}
+
+#reset {
+  background-color: brown;
+  color: white;
+}
+
