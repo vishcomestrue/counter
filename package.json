@@ -1,6 +1,6 @@
 {
-  "homepage": "https://vishcomestrue.github.io/counter",
   "name": "learn-0.1",
+  "homepage": "https://vishcomestrue.github.io/counter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
