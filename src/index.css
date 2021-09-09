@@ -7,7 +7,6 @@ body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background: linear-gradient(#0069ff, #0069ff 50%, #fff 50%);
-  /* background-color: black; */
   color: black;
   height: 100vh;
   display: flex;
