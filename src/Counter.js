@@ -3,7 +3,9 @@ import './Counter.css';
 
 const Counter = () => {
 
-  let [count, changeCount] = useState(0)
+  let [count, changeCount] = useState(() => {
+    return 0
+  })
 
   return (
     <div className="localeBody">
